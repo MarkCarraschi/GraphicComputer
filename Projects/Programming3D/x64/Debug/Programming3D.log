@@ -1,0 +1,21 @@
+﻿  pch.cpp
+  ActionsUser.cpp
+  Main3DProgram.cpp
+  Generating Code...
+Main3DProgram.obj : error LNK2005: "float angle" (?angle@@3MA) already defined in ActionsUser.obj
+Main3DProgram.obj : error LNK2005: "float fAspect" (?fAspect@@3MA) already defined in ActionsUser.obj
+ActionsUser.obj : error LNK2019: unresolved external symbol __imp_glLoadIdentity referenced in function "void __cdecl EspecificaParametrosVisualizacao(void)" (?EspecificaParametrosVisualizacao@@YAXXZ)
+ActionsUser.obj : error LNK2019: unresolved external symbol __imp_glMatrixMode referenced in function "void __cdecl EspecificaParametrosVisualizacao(void)" (?EspecificaParametrosVisualizacao@@YAXXZ)
+ActionsUser.obj : error LNK2019: unresolved external symbol gluPerspective referenced in function "void __cdecl EspecificaParametrosVisualizacao(void)" (?EspecificaParametrosVisualizacao@@YAXXZ)
+ActionsUser.obj : error LNK2019: unresolved external symbol gluLookAt referenced in function "void __cdecl EspecificaParametrosVisualizacao(void)" (?EspecificaParametrosVisualizacao@@YAXXZ)
+ActionsUser.obj : error LNK2019: unresolved external symbol __imp_glutPostRedisplay referenced in function "void __cdecl GerenciaMouse(int,int,int,int)" (?GerenciaMouse@@YAXHHHH@Z)
+Main3DProgram.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function "void __cdecl Desenha(void)" (?Desenha@@YAXXZ)
+Main3DProgram.obj : error LNK2019: unresolved external symbol __imp_glClearColor referenced in function "void __cdecl Inicializa(void)" (?Inicializa@@YAXXZ)
+Main3DProgram.obj : error LNK2019: unresolved external symbol __imp_glColor3f referenced in function "void __cdecl Desenha(void)" (?Desenha@@YAXXZ)
+Main3DProgram.obj : error LNK2019: unresolved external symbol __imp_glViewport referenced in function "void __cdecl AlteraTamanhoJanela(int,int)" (?AlteraTamanhoJanela@@YAXHH@Z)
+Main3DProgram.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "void __cdecl Desenha(void)" (?Desenha@@YAXXZ)
+Main3DProgram.obj : error LNK2019: unresolved external symbol __imp_glutWireTeapot referenced in function "void __cdecl Desenha(void)" (?Desenha@@YAXXZ)
+C:\Users\mcarraschi\Desktop\GraphicComputer\Arquivos\Arquivos\Arquivos Visual C\lib\glu32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\mcarraschi\Desktop\GraphicComputer\Arquivos\Arquivos\Arquivos Visual C\lib\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\mcarraschi\Desktop\GraphicComputer\Arquivos\Arquivos\Arquivos Visual C\lib\opengl32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\mcarraschi\Desktop\GraphicComputer\Projects\x64\Debug\Programming3D.exe : fatal error LNK1120: 11 unresolved externals
